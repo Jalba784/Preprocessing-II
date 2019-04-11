@@ -2,7 +2,7 @@
 .home {
   .intro {
     padding-bottom: 10px;
-    border-bottom: 2px dashed grey;
+    border-bottom: 2px dashed @silver;
     .bus-sand {
       margin-bottom: 20px;
     }
@@ -64,6 +64,10 @@
     .destination {
       width: 30%;
       margin-bottom: 30px;
+
+      .btn {
+        .bottom-bts(@silver, @white, @eastern-blue);
+      }
     }
   }
 }// home
