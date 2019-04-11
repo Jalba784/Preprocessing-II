@@ -17,4 +17,29 @@
       font-size: 2.0rem;
     }
   }
-}
+  @media @mobile {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    border-bottom: 2px dashed @silver;
+
+    h1 {
+      padding: 0px 0px 20px 0px;
+      margin: 0px 0px 0px 0px;
+      font-size: 3.0rem;
+    }
+    nav {
+      //border: 1px solid red;
+      margin: 10px 0px 0px 0px;
+      a {
+        text-decoration: none;
+        color: black;
+        padding: 0px 0px 0px 0px;
+        margin: 0px 30px;
+        font-size: 1.6rem;
+      }
+    }
+  } // End of mobile
+} // End of title-nav-bar
+//// Left of on the nav bar of the mobile file
